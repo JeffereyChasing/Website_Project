@@ -1,0 +1,1 @@
+import arrow from '../Dynamic/arrow.png'

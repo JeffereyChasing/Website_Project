@@ -1,0 +1,162 @@
+$bc: white;
+//背景颜色
+$paragraph-font-color: #888;
+//段落字体-1
+$paragraph-title-size: 30px;
+//段落标题大小
+
+
+
+
+
+/*变量区*/
+
+@mixin bodyBlockSize($mt: 40px){
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  margin-top: $mt;
+}
+//主题块的大小 (唯一变量是marginTop)
+
+@mixin paragraphStyle($pft:14px,$lh:28px){
+  color:$paragraph-font-color;
+  font-size: $pft;
+  line-height: $lh;
+}
+//段落的格式
+
+@mixin boxModel($w:auto,$h:auto,$bc:transparent,$mt:0,$mb:0,$ml:0,$mr:0,$d:flex,$fd:row,$g:auto,$pl:auto,$pr:auto){
+  width:$w;
+  height: $h;
+  background-color: $bc;
+  margin-top: $mt;
+  margin-bottom: $mb;
+  margin-left: $ml;
+  margin-right: $mr;
+  display: $d;
+  flex-direction: $fd;
+  gap:$g;
+  padding-left: $pl;
+  padding-right: $pr;
+}
+//盒子模型
+
+%bubble{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+/*函数区*/
+
+
+
+::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0;
+}
+//取消滚动条
+
+body{
+  margin:0;
+  position: relative;
+ 
+}
+//主题
+
+#nav {
+  background-color: #2f73b7;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  .nav-item{
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(203, 202, 202);
+    text-decoration: none;
+  }
+  #list1 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 59px;
+    padding-right: 80px;
+    color: rgb(203, 202, 202);
+    font-size: 18px;
+  }
+}
+//导航
+
+#bottom1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+}
+//底部div
+
+
+
+
+#bj2{
+
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  @include  boxModel($w:auto,$h:auto,$bc:transparent,$mt:90px,$mb:0,$ml:0,$mr:0,$d:flex,$fd:row,$g:auto)
+
+}
+//Home/ bj2
+
+#bj4{
+  @include boxModel($w:auto,$h:500px,$bc:transparent,$mt:20px,$mb:0,$ml:0,$mr:0,$d:flex,$fd:column,$g:auto) 
+}
+//Home /bj4
+
+#p1{
+  padding-bottom: 3px;
+  cursor: pointer;
+  border: {
+      width:2px;
+      style: groove;
+      color: transparent;
+      left: transparent;
+      right: transparent;
+      top: transparent;
+  };
+ 
+}
+//Join/ 2019 2020 2021
+
+#bubble{
+  @extend %bubble;
+}
+//Home /泡泡
+
+
+
+
+
+
+/*表达式区*/
+
+
+
+
+
+
+
+
+
+
+
+

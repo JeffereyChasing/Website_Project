@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*变量区*/
+#bubble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*函数区*/
+::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+#nav {
+  background-color: #2f73b7;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+#nav .nav-item {
+  font-size: 14px;
+  cursor: pointer;
+  color: rgb(203, 202, 202);
+  text-decoration: none;
+}
+#nav #list1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  gap: 59px;
+  padding-right: 80px;
+  color: rgb(203, 202, 202);
+  font-size: 18px;
+}
+
+#bottom1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#bj2 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  margin-top: 90px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#bj4 {
+  width: auto;
+  height: 500px;
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#p1 {
+  padding-bottom: 3px;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: groove;
+  border-color: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+}
+
+/*表达式区*/

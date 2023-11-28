@@ -168,7 +168,7 @@
                     <p>CMMI3级认证</p>
                     </div>
                     <div style="text-align: center;">
-                    <img src="@/assets/Join/ISO 9001.png" style="width: 170px;"/>
+                    <img src="@/assets/Join/ISO_9001.png" style="width: 170px;"/>
                     <p>ISO 9001</p>
                     </div>
                     <div style="text-align: center;">

@@ -20,10 +20,10 @@
       id="bottom1"
       style="background-color: transparent; height: 700px; width: 100%"
     >
-      <div>
+      <div style="width: 100%;">
         <img
           src="@/assets/Home/wave.png"
-          style="height: 130%; position: absolute"
+          style="height: 130%; position: absolute; object-fit: cover;"
         />
       </div>
     </div>
@@ -36,7 +36,7 @@
         width: 120%;
         display: flex;
         flex-direction: row;
-        padding-left: 150px;
+        padding-left: 70px;
         font-size: 14px;
       "
     >
@@ -69,7 +69,7 @@
 
       <div style="margin-left: 340px; font-weight: 500; font-size: 20px">
         <p>关注我们</p>
-        <img src="@/assets/Code/c1.jpg" style="width: 100px" />
+        <img src="@/assets/Code/c1.jpg" style="width: 80px" />
         <p style="font-size: 15px">数字海南公众号</p>
       </div>
 
@@ -84,7 +84,7 @@
       >
         <img
           src="@/assets/Code/c3.png"
-          style="width: 100px; margin-top: 67px"
+          style="width: 80px; margin-top: 67px"
         />
         <p style="font-size: 15px">海易办APP</p>
       </div>
@@ -99,7 +99,7 @@
       >
         <img
           src="@/assets/Code/c2.jpg"
-          style="width: 100px; margin-top: 67px"
+          style="width: 80px; margin-top: 67px"
         />
         <p style="font-size: 15px">海易办小程序</p>
       </div>
@@ -113,12 +113,12 @@
         width: 50%;
         display: flex;
         flex-direction: row;
-        padding-left: 110px;
+        padding-left: 60px;
         justify-content: space-between;
       "
     >
       <div>
-        <p style="padding-left: 40px; font-size: 14px">
+        <p style="padding-left: 10px; font-size: 14px">
           © 2020-2022 · 数字海南有限公司 · 版权所有
         </p>
       </div>

@@ -67,6 +67,8 @@ $paragraph-title-size: 30px;
 body{
   margin:0;
   position: relative;
+  overflow-x: hidden;
+  //去除水平移动
  
 }
 //主题

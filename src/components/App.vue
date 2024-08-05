@@ -97,7 +97,7 @@
     <div
       id="bottom1"
       style="
-        background-color: yellow;
+        background-color: transparent;
         height: 80px;
         width: 100%;
         display: flex;

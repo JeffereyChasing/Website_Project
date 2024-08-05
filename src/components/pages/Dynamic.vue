@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color;display: flex;flex-direction: column;min-height: 6000px;">
+  <div style="background-color;display: flex;flex-direction: column;min-height: 5000px;">
 
     <div>
       <img src="@/assets/Dynamic/channel.png" style="width: 100%" />

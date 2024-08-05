@@ -38,7 +38,7 @@
 
       <div style=" background-color: transparent;display: flex; flex-direction: column;position: relative; margin-bottom:10%; margin-top:3%">
 
-        <div id="bj4">
+        <div id="bj4" style ="margin-bottom:200px">
             <img src="@/assets/Coopearation/img1.jpg" />
         </div>
 
@@ -49,7 +49,7 @@
         <!-- 大图片 -->
 
 
-        <div style="display: flex; gap:20px; margin-top:95px" id="bj5">
+        <div style="display: flex; gap:20px; margin-top:200px" id="bj5">
 
             <div style="width: 33%;background-color: white;">
                 <img src="@/assets/Coopearation/img2.png"/>

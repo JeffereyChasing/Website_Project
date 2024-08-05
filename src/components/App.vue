@@ -37,7 +37,7 @@
         <p style="font-weight: 100">海南省大数据管理局</p>
       </div>
 
-      <div style="padding-left: 50px">
+      <div style="padding-left: 50px; ">
         <p style="font-size: 20px">联系方式</p>
 
         <div style="display: flex; flex-direction: row">
@@ -56,7 +56,7 @@
         </div>
       </div>
 
-      <div style="margin-left: 340px; font-weight: 500; font-size: 20px">
+      <div style="margin-left: 40%; font-weight: 500; font-size: 20px">
         <p>关注我们</p>
         <img src="@/assets/Code/c1.jpg" style="width: 80px" />
         <p style="font-size: 15px">数字海南公众号</p>
@@ -82,7 +82,7 @@
         style="
           font-weight: 500;
           font-size: 20px;
-          margin-left: 25px;
+          margin-left:20px;
           text-align: center;
         "
       >
@@ -99,7 +99,7 @@
       style="
         background-color: transparent;
         height: 80px;
-        width: 50%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         padding-left: 60px;
@@ -112,9 +112,9 @@
         </p>
       </div>
       
-      <div>
+      <div style = "margin-left:20px">
         <p style="padding-right: 40px; font-size: 14px">
-          ICP备案： 琼ICP备20000259号-1
+          ICP备案： 琼ICP备20000259号-112
         </p>
       </div>
 

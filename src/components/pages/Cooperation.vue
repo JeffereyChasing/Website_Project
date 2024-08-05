@@ -29,31 +29,6 @@
 
 
 
-<div class="container" style="display: flex; justify-content: flex-end; margin-top: 95px; ">
-        
-
-        
-
-        <div >
-            <p style="line-height: 35px; font-size: 15px">
-              第二届 <br /><span style="font-size: 22px"
-                >海南大数据创新应用大赛</span
-              >
-            </p>
-            <p style="">105万元奖金 1664支参赛团队</p>
-            <p style="color: #888">
-              为释放技术创新红利，数字海南承办第二届海南大数据创新应用大赛，旨在吸引全国大数据优秀应用落地海南。
-              大赛将“海南人才知识图谱构建”作为智能算法赛的赛题，并组织“农业”、“教育就业”、“医疗健康”应用创新赛，与由国内科研院所、企业、省直单位的专家学者组成的评委团保障了赛事的公平、合理、专业。
-            </p>
-            <p style="color: #888">
-              最终海南新境界荣获算法赛冠军，“农业”、“教育就业”、“医疗健康”的金奖分别由海南普适智能科技有限公司的橡胶林智能管理平台、广州影新教育科技有限公司的影新AR奇妙学堂、上海普现医疗科技有限公司的基于大数据模型的DRG分组应用项目获得。
-            </p>
-        </div>
-<img
-          src="@/assets/Coopearation/graph2.png" 
-        />
-      </div>
-      <!-- 第二部分 -->
 
 
 
@@ -61,7 +36,7 @@
 
 
 
-      <div style=" background-color: transparent;display: flex; flex-direction: column;position: relative; margin-bottom:10%">
+      <div style=" background-color: transparent;display: flex; flex-direction: column;position: relative; margin-bottom:10%; margin-top:3%">
 
         <div id="bj4">
             <img src="@/assets/Coopearation/img1.jpg" />
@@ -74,7 +49,7 @@
         <!-- 大图片 -->
 
 
-        <div style="display: flex; gap:20px; margin-top:50px" id="bj5">
+        <div style="display: flex; gap:20px; margin-top:95px" id="bj5">
 
             <div style="width: 33%;background-color: white;">
                 <img src="@/assets/Coopearation/img2.png"/>

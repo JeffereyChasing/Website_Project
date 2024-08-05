@@ -1,14 +1,9 @@
 <template>
-    <div>
-
-
-        <div>
+    <div >
+         <div>
             <img src="@/assets/Join/bg3.png" style="width: 100%;"/>
         </div>
-        <!-- 图片 -->
-
-
-            <div style="position: sticky; top: 0;height: 55px;
+      <div style="position: sticky; top: 0;height: 55px;
             background-color: rgba(245,245,245,1); display: flex;gap:45px;
             padding-left: 30px; z-index: 9999999;" id="stickyline">
                 <div id="c"  @click="goAnchor('#cul')"><p  style="cursor: pointer; pointer-events: none;">企业文化</p></div>
@@ -16,12 +11,15 @@
                 <div id="c" @click="goAnchor('#cor')"><p  style="cursor: pointer; pointer-events: none;" >合作伙伴</p></div>
                 <div id="c" @click="goAnchor('#cont')" ><p style="cursor: pointer; pointer-events: none;">联系我们</p></div>
             </div>
+        <!-- 图片 -->
+        <div style="margin-left:3%">
+       
+
+
+          
         <!-- 第二标题 -->
     
-        <div>
-            <button>位置</button>
-        </div>
-        <!-- test -->
+      
 
         <div style="height: 3750px; margin-top: 120px;" class="body-block">
             
@@ -208,19 +206,6 @@
                 </div>
                 <!-- 图片 -->
 
-                <div style="position:absolute; right:30px; top: 2830px; background-color: white;width: 42px;height: 42px;border-radius: 50px;
-                    box-shadow: 0px 0px 8px 3px rgb(153, 186, 205);display:none; cursor: pointer; z-index: 10000;"
-                    id="rightarrow"  >
-                        <img src="@/assets/Join/arrow.png" style="width: 100%;rotate: 180deg;"/>
-                </div>
-                <!-- 右箭头 -->
-
-                <div style="position:absolute; left:30px; top: 2830px; background-color: white;width: 42px;height: 42px;border-radius: 50px;
-                    box-shadow: 0px 0px 8px 3px rgb(153, 186, 205);display:none; cursor: pointer; z-index: ;"
-                    id="leftarrow"  >
-                        <img src="@/assets/Join/arrow.png" style="width: 100%;pointer-events: none;"/>
-                </div>
-                <!-- 左箭头 -->
 
 
             </div>
@@ -289,7 +274,7 @@
         </div>
         <!-- 正文 -->
 
-
+        </div>
 
         
     </div>

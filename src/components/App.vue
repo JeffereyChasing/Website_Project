@@ -16,18 +16,7 @@
     <router-view />
     <!-- 路由器 -->
 
-    <div
-      id="bottom1"
-      style="background-color: transparent; height: 700px; width: 100%"
-    >
-      <div style="width: 100%;">
-        <img
-          src="@/assets/Home/wave.png"
-          style="height: 130%; position: absolute; object-fit: cover;"
-        />
-      </div>
-    </div>
-
+    
     <div
       id="bottom1"
       style="

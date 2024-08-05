@@ -50,7 +50,7 @@
       <!-- 图片和文字 -->
 
       <div
-        style="height: 700px; background-color: transparent; margin-top: 95px" id = "textandimage2"
+        style=" background-color: transparent; margin-top: 95px" id = "textandimage2"
       >
         <div>
           <p class="title1">2个能力支撑平台</p>
@@ -76,6 +76,7 @@
               height: 30px;
               width: 184px;
               pointer-events: none;
+              
             "
             id="slide1"
           ></div>
@@ -83,7 +84,7 @@
 
           <div
             style="
-              background-color: ;
+              background-color: transparent ;
               padding-left: 40px;
               width: 270px;
               font-size: 24px;
@@ -146,7 +147,7 @@
       <!-- 2个能力 -->
 
       <div
-        style="height: 500px; background-color: transparent; margin-top: 300px" id = "textandimage3"
+        style=" background-color: transparent; margin-top: 95px" id = "textandimage3"
       >
         <div>
           <p class="title1">2个服务输出端</p>
@@ -282,12 +283,12 @@
       </div>
       <!-- 两个输出服务端 -->
 
-      <div style="background-color: transparent; height: 1900px" id = "textandimage4">
+      <div style="background-color: transparent; height: 1900px; margin-top: 95px" id = "textandimage4">
         <div>
           <p class="title1">N个行业智能应用</p>
         </div>
 
-        <div style="display: flex; flex-direction: column; margin-top: 70px">
+        <div style="display: flex; flex-direction: column; margin: 70px">
 
           <div style="display: flex; flex-direction: row; margin-left: 20px">
 
@@ -575,10 +576,11 @@ ul li{
 //文本中
 
 #smallbox {
-  @include boxModel(31%,300px,$mr:20px,$fd:column);
+  @include boxModel(31%,420px,$mr:50px,$fd:column);
   box-shadow: 3px 2px 15px 2px rgba(11, 63, 141, 0.2);
   #smallerbox{
     padding-left: 20px;
+    
   }
   &:hover{
     box-shadow: 3px 2px 15px 10px rgba(11, 63, 141, 0.2);

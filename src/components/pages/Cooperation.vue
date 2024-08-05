@@ -7,10 +7,10 @@
 
     <div class="body-block" style="margin-top: 0px;">
       <div
-        style="height: 600px; margin-top: 120px; background-color: transparent"
+        style=" margin-top: 120px; background-color: transparent"
       >
-        <div class="product-small-font" id="box1">
-          <p style="font-size: 24px; line-height: 0px; font-weight: 500;color:black;">
+        <div class="product-small-font"  id="box1">
+          <p style="font-size: 24px; line-height: 0px; font-weight: 500;color:black; ">
             大数据生态的凝聚者
           </p>
           <p>
@@ -23,16 +23,18 @@
       </div>
       <!-- 文本 -->
 
-      <div style="height: 780px; background-color: transparent" id="bj3">
-        <img
-          src="@/assets/Coopearation/graph2.png"
-          style="width: 65%; margin-left: 400px; position: absolute"
-        />
 
 
 
-        <div id="box2">
-          <div style="padding-right: 28px; padding-left: 30px">
+
+
+
+<div class="container" style="display: flex; justify-content: flex-end; margin-top: 95px; ">
+        
+
+        
+
+        <div >
             <p style="line-height: 35px; font-size: 15px">
               第二届 <br /><span style="font-size: 22px"
                 >海南大数据创新应用大赛</span
@@ -46,11 +48,10 @@
             <p style="color: #888">
               最终海南新境界荣获算法赛冠军，“农业”、“教育就业”、“医疗健康”的金奖分别由海南普适智能科技有限公司的橡胶林智能管理平台、广州影新教育科技有限公司的影新AR奇妙学堂、上海普现医疗科技有限公司的基于大数据模型的DRG分组应用项目获得。
             </p>
-          </div>
-
         </div>
-
-
+<img
+          src="@/assets/Coopearation/graph2.png" 
+        />
       </div>
       <!-- 第二部分 -->
 
@@ -60,20 +61,20 @@
 
 
 
-      <div style="height: 1800px; background-color: transparent;display: flex; flex-direction: column;position: relative;">
+      <div style=" background-color: transparent;display: flex; flex-direction: column;position: relative; margin-bottom:10%">
 
         <div id="bj4">
             <img src="@/assets/Coopearation/img1.jpg" />
         </div>
 
-        <div style="position: absolute;left: 50px; top:270px">
+        <div style="position: absolute;left: 50px; top:270px;">
           <p style="font-size: 22px; color: white;">创新性人才的培养者</p>
           <p style="color: white; font-size: 14px;">优化人才培养模式，促进信息化产业人才聚集，推动重点产业领域的产教融合， 为全面建成自由贸易港提供强有力人才保障。</p>
         </div>
         <!-- 大图片 -->
 
 
-        <div style="display: flex; gap:20px;" id="bj5">
+        <div style="display: flex; gap:20px; margin-top:50px" id="bj5">
 
             <div style="width: 33%;background-color: white;">
                 <img src="@/assets/Coopearation/img2.png"/>
@@ -121,13 +122,12 @@ export default {
 
 #box1{
 
-  @include boxModel($w:420px,$h:400px,$bc:white,$mt:50px,$mb:0,$ml:390px,$mr:0,$d:flex,$fd:column,$g:0px);
+  @include boxModel($w:420px,$h:400px,$bc:white,$mt:50px,$mb:0,$mr:0,$d:flex,$fd:column,$g:0px);
   position: absolute;
   justify-content: center;
-  left: 300px;
   padding-left: 40px;
   line-height: 25px;
-
+  right:10%;
 }
 
 #box2{

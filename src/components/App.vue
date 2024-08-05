@@ -97,13 +97,13 @@
     <div
       id="bottom1"
       style="
-        background-color: transparent;
+        background-color: yellow;
         height: 80px;
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         padding-left: 60px;
-        justify-content: space-between;
+        
       "
     >
       <div>
@@ -112,11 +112,7 @@
         </p>
       </div>
       
-      <div style = "margin-left:20px">
-        <p style="padding-right: 40px; font-size: 14px">
-          ICP备案： 琼ICP备20000259号-112
-        </p>
-      </div>
+     
 
     </div>
     <!-- 3个底部div (footer)-->

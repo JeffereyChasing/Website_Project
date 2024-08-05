@@ -22,10 +22,10 @@
       style="
         background-color: transparent;
         height: 20px;
-        width: 120%;
+        width: 90%;
         display: flex;
         flex-direction: row;
-        padding-left: 70px;
+        padding-left: 30px;
         font-size: 14px;
       "
     >
@@ -107,7 +107,7 @@
       "
     >
       <div>
-        <p style="padding-left: 10px; font-size: 14px">
+        <p style="font-size: 14px">
           © 2020-2022 · 数字海南有限公司 · 版权所有
         </p>
       </div>

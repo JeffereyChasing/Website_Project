@@ -24,18 +24,6 @@
       <!-- 文本 -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
       <div style=" background-color: transparent;display: flex; flex-direction: column;position: relative; margin-bottom:10%; margin-top:3%">
 
         <div id="bj4" style ="margin-bottom:200px">
